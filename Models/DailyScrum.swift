@@ -42,4 +42,11 @@ extension DailyScrum {
         
     }
     
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        color = data.color
+    }
+    
 }
