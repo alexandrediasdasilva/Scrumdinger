@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		66DD5F992674F5D700EB3642 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD5F982674F5D700EB3642 /* ScrumsView.swift */; };
+		66DD5F9B2674FDB500EB3642 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD5F9A2674FDB500EB3642 /* DetailView.swift */; };
+		66DD5F9D26750B1100EB3642 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD5F9C26750B1100EB3642 /* EditView.swift */; };
 		AC235E7A265D0FC800AA700F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC235E79265D0FC800AA700F /* ScrumdingerApp.swift */; };
 		AC235E7C265D0FC800AA700F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC235E7B265D0FC800AA700F /* MeetingView.swift */; };
 		AC235E7E265D0FC900AA700F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC235E7D265D0FC900AA700F /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		66DD5F982674F5D700EB3642 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		66DD5F9A2674FDB500EB3642 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		66DD5F9C26750B1100EB3642 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AC235E76265D0FC800AA700F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC235E79265D0FC800AA700F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		AC235E7B265D0FC800AA700F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				AC235E7B265D0FC800AA700F /* MeetingView.swift */,
 				AC235E8B265D74D200AA700F /* CardView.swift */,
 				66DD5F982674F5D700EB3642 /* ScrumsView.swift */,
+				66DD5F9A2674FDB500EB3642 /* DetailView.swift */,
+				66DD5F9C26750B1100EB3642 /* EditView.swift */,
 				AC235E7D265D0FC900AA700F /* Assets.xcassets */,
 				AC235E82265D0FC900AA700F /* Info.plist */,
 				AC235E7F265D0FC900AA700F /* Preview Content */,
@@ -160,7 +166,9 @@
 			files = (
 				AC235E7C265D0FC800AA700F /* MeetingView.swift in Sources */,
 				66DD5F992674F5D700EB3642 /* ScrumsView.swift in Sources */,
+				66DD5F9D26750B1100EB3642 /* EditView.swift in Sources */,
 				AC235E8A265D70DD00AA700F /* DailyScrum.swift in Sources */,
+				66DD5F9B2674FDB500EB3642 /* DetailView.swift in Sources */,
 				AC235E8C265D74D200AA700F /* CardView.swift in Sources */,
 				AC5DCCB9265D7868000B0198 /* Color+Codable.swift in Sources */,
 				AC235E7A265D0FC800AA700F /* ScrumdingerApp.swift in Sources */,
