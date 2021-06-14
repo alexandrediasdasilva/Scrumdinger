@@ -13,6 +13,7 @@ struct DailyScrum: Identifiable {
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+    var history: [History]
 }
 
 // Données de test
